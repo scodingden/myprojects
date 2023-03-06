@@ -1,0 +1,45 @@
+body {
+    height: 95vh;
+    display: grid;
+    place-content: center;
+
+}
+
+.button {
+    display: grid;
+    place-content: center;
+    font-size: 22px;
+    color: aliceblue;
+    background: rgba(25, 207, 168, 0.867);
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 8px 5px -5px rgba(3, 87, 69, 0.867);
+
+}
+
+.loader {
+    pointer-events: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top-color: aliceblue;
+    animation: loader 1s ease infinite;
+    transition: 0.2s;
+}
+
+.changes-sav {
+    font-size: 22px;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
