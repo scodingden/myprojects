@@ -10,12 +10,13 @@ body {
     place-content: center;
     font-size: 22px;
     color: aliceblue;
-    background: rgba(25, 207, 168, 0.867);
+    background: #ffafcc;
     width: 250px;
     height: 60px;
     cursor: pointer;
     border-radius: 3px;
-    box-shadow: 0 8px 5px -5px rgba(3, 87, 69, 0.867);
+    box-shadow: 0 8px 5px -5px #cdb4db;
+    border: none;
 
 }
 
